@@ -1,0 +1,100 @@
+.modal-button {
+  background: linear-gradient(125.89deg, #28669D 29.01%, #3DE49E 79.95%);
+  border-radius: 72px;
+}
+
+.modal-body {
+  overflow-wrap: break-word;
+}
+
+.modal-button-text {
+  padding: 12px 72px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.modal-timer {
+  border: 10px solid black;
+  display: flex;
+  border-radius: 50%;
+  width: 100px;
+  /* padding: 20px; */
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  animation: rotateCircle 2s linear infinite;
+}
+
+.modal-timer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.modal-timer-outer {
+  background-image: linear-gradient(#28669D, #3DE49E, #28669D);
+  width: 75px;
+  height: 75px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 50%;
+  border-width: 0;
+  animation: rotateCircle 2s linear infinite;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-timer-inner {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 75px; */
+  width: 75px;
+  /* border-style: solid; */
+  /* border-color: transparent; */
+  border-radius: 88%;
+  border-width: 1px;
+  animation: rotateCircle 2s linear infinite reverse;
+  /* display: table; */
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.modal-timer-text {
+  text-align: center;
+}
+
+@keyframes rotateCircle {
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

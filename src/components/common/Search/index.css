@@ -1,0 +1,44 @@
+.search-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px;
+  width: 50%;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  border-radius: 20px;
+  padding: 20px 74px 20px 30px;
+}
+
+.icon-box {
+  position: absolute;
+  right: calc(25% + 20px);
+  cursor: pointer;
+  display: flex;
+}
+
+.icons-size {
+  width: 34px;
+  height: 34px;
+}
+
+@media (max-width: 768px) {
+  .search-box {
+    width: 75%;
+  }
+
+  .icon-box {
+    position: absolute;
+    right: calc(12.5% + 20px);
+    cursor: pointer;
+    display: flex;
+  }
+}

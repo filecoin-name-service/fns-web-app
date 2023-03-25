@@ -1,0 +1,35 @@
+.claim-fil-card {
+  color: #262626;
+  max-width: 90% !important;
+  padding: 30px;
+  border-radius: 20px !important;
+}
+
+.claim-fil-card-hover {
+  cursor: pointer;
+}
+
+.claim-fil-card-hover:hover {
+  cursor: pointer;
+  background: rgb(245, 245, 245);
+  transform: translateY(-1px);
+}
+
+
+.claim-fil-icon {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 577px) {
+  .claim-fil-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 577px) {
+  .claim-fil-icon-div {
+    justify-content: center;
+  }
+}

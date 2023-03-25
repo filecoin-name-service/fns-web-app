@@ -1,0 +1,35 @@
+.options-label-box {
+  background: #ECECEC;
+  border-radius: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  cursor: pointer
+}
+
+.options-label-price-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.options-label-diration {
+  font-size: 10.0694px;
+  line-height: 14px;
+}
+
+.more-options-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 135% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.padding_0 {
+  padding: 0px !important;
+}

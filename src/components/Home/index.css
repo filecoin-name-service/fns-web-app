@@ -1,0 +1,73 @@
+@media screen and (min-width: 992px) {
+    .publish_button_size {
+        height: 120px;
+        width: 120px;
+    }
+
+    .download_button_size {
+        width: 120px;
+        text-align: left !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .download_button_size {
+        text-align: center !important;
+    }
+
+    .condition_justify_content_center {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .android-text {
+        margin-top: 7px;
+    }
+
+    .extra-line {
+        display: flex !important;
+        visibility: inherit !important;
+        color: transparent;
+        margin-top: -7px;
+    }
+}
+
+.extra-line {
+    display: none;
+    visibility: hidden;
+}
+
+.download_button_size {
+    max-width: 200px
+}
+
+.home-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(35.26deg, #3DCFFF 7.78%, #28669D 61.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+.home-sub-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #9B9BA6;
+}

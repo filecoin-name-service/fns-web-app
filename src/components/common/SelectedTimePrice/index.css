@@ -1,0 +1,65 @@
+.time_price_box {
+  background: #ECECEC;
+  border-radius: 71px;
+  justify-content: center;
+  align-items: center;
+}
+
+.time_price_box_data {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  justify-content: center;
+}
+
+.time_price_box_icon {
+  width: 48px;
+  height: 48px;
+  color: #3de49e;
+  cursor: pointer;
+}
+
+.time_price_box_data_col {
+  padding: 0px;
+}
+
+.time_price_box_price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  justify-content: center;
+}
+
+.time_price_box_price_icon {
+  width: 34px;
+  height: 34px;
+}
+
+
+@media (max-width: 768px) {
+  .time_price_box_data {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 501px) {
+  .time_price_box_icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .time_price_box_icon {
+    width: 20px;
+    height: 20px;
+  }
+}

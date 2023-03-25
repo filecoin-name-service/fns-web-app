@@ -1,0 +1,59 @@
+.card_center {
+  border-radius: 50px !important;
+}
+
+.card-body {
+  padding: 5rem 1.25rem !important;
+}
+
+.register-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-button {
+  background: linear-gradient(125.89deg, #28669D 29.01%, #3DE49E 79.95%);
+  border-radius: 72px;
+}
+
+.register-button-text {
+  padding: 12px 72px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29.6992px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+.register_name_header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 71px;
+  display: block;
+  align-items: center;
+  color: #000000;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .register_name_header {
+    font-size: 44px;
+  }
+
+  /* 
+  .header-wallet-select-button {
+    max-width: 130px;
+    padding: 10px 20px;
+  }
+
+  .header-wallet-select-button-text {
+    font-size: 14px;
+  } */
+}
